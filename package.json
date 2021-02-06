@@ -1,0 +1,26 @@
+{
+  "name": "tv-program",
+  "version": "1.0.0",
+  "description": "Stores the first 5 tv channel programs from port.hu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "channel",
+    "program",
+    "nodejs",
+    "react"
+  ],
+  "author": "Gábor Rigó",
+  "license": "ISC",
+  "dependencies": {
+    "@date-io/date-fns": "^2.10.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "postman-request": "^2.88.1-postman.28"
+  }
+}
